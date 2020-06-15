@@ -1,0 +1,37 @@
+/* 黑色系 */
+.table{
+    border-collapse: collapse;
+    border: 1px solid transparent;
+    width: 100%;
+    /* 允许宽度大于100%  不允许小于100% */
+    min-width: 100%;
+    text-align: center;
+}
+th{
+    font-weight: bolder;
+    color: #728AAF;
+}
+.table>thead>tr,
+.table>tbody>tr{
+    width: 100%;
+    min-width: 100%;
+}
+/* 这里写th td 相同样式的时候 */
+.table>thead>tr>th,
+.table>thead>tr>td,
+.table>tbody>tr>td{
+    padding: 10px 0 10px 15px;
+}
+.table>tbody>tr>td{
+    color: #606263;
+}
+.table-hover>tbody>tr:hover{
+    background-color: #2A2C3A;
+}
+
+
+
+
+.table-inserve{
+    background-color: #303242;
+}

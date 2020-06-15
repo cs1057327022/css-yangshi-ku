@@ -1,0 +1,42 @@
+.table{
+    border-collapse: collapse;
+    border: 1px solid transparent;
+    width: 100%;
+    /* 允许宽度大于100%  不允许小于100% */
+    min-width: 100%;
+    text-align: center;
+}
+th{
+    font-weight: bolder;
+    color: #909399;
+}
+.table>thead>tr,
+.table>tbody>tr{
+    width: 100%;
+    min-width: 100%;
+}
+/* 这里写th td 相同样式的时候 */
+.table>thead>tr>th,
+.table>thead>tr>td,
+.table>tbody>tr>td{
+    padding: 10px 0 10px 15px;
+}
+.table>tbody>tr>td{
+    color: #728AAF;
+}
+
+/* 斑马样式 */
+.table-striped tbody>tr:nth-child(odd){
+    background-color: #fafafa;
+}
+
+.table-hover>tbody>tr:hover{
+    background-color: #f0f9f8;
+    border-bottom: 1px solid #f0f9f8 !important;
+}
+
+
+/* 黑色系 */
+.table-inserve{
+    background-color: #303242;
+}

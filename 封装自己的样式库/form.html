@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+    <link rel="stylesheet" href="./css/query.css">
+    <style>
+        form{
+            width: 300px;
+            background-color: #fff;
+            box-shadow: 5px 5px 5px #ccc;
+            padding: 10px 15px;
+        }
+        .size{
+            width: 80%;
+            margin-left: 10%;
+        }
+    </style>
+</head>
+<body>
+    <input type="text" class="form-control" placeholder="请输入内容">
+    <!-- 图标在右 -->
+    <div class="has-feedback has-feedback-suffix">
+        <input type="text"class="form-control">
+        <span class="iconfont icon-xiajiantou_huaban form-control-feedback"></span>
+    </div>
+    <!-- 图标在左边  -->
+    <div class="has-feedback has-feedback-prefix">
+        <input type="text"class="form-control">
+        <span class="iconfont icon-xiajiantou_huaban form-control-feedback"></span>
+    </div>
+
+    <!-- 复合型输入框 -->
+    <div class="form-group-perend">
+        <div class="input-prepend">Http://</div>
+        <input type="text" class="form-control">
+    </div>
+    
+    <form class="form-inline">
+        <div class="form-group">
+            <label for="name" class="form-label">name</label>
+            <input type="text" class="form-control" name="name" id="name" placeholder="请输入ming">
+        </div>
+        <div class="form-group">
+            <label for="password" class="form-label">密码</label>
+            <input type="password" class="form-control" name="password" id="password" placeholder="请输入密码">
+        </div>
+        <div class="form-group">
+            <button class="btn btn-info">提交</button>
+        </div>
+    </form>
+
+    <form class="">
+        <div class="form-group">
+            <label for="name" class="form-label">name</label>
+            <input type="text" class="form-control" name="name" id="name" placeholder="请输入ming">
+        </div>
+        <div class="form-group">
+            <label for="password" class="form-label">密码</label>
+            <input type="password" class="form-control" name="password" id="password" placeholder="请输入密码">
+        </div>
+        <div class="form-group">
+            <button class="btn btn-info size">提交</button>
+        </div>
+    </form>
+</body>
+</html> 
